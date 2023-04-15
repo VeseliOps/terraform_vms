@@ -15,7 +15,7 @@ provider "azurerm" {
 
 }
 variable "resgroup2" {
-  default = "RES-GRP-CT360-TUTORING-GRP4"
+  default = "RESOURCE-GROUP" #NAME A RESOURCE GROUP
 }
 variable "loc2" {
   default = "West Europe"
@@ -76,11 +76,11 @@ resource "azurerm_linux_virtual_machine" "vm2" {
   source_image_reference {
     publisher = "Canonical"
     offer     = "UbuntuServer"
-    sku       = "18.04-LTS"
+    sku       = "22.04-LTS" # OR 18.04
     version   = "latest"
   }
 }
-# OVO SU PORTOVI ZA DOCKER SWARM
+# OPENING PORTS FOR DOCKER SWARM
 resource "azurerm_network_security_group" "my_terraform_nsg2" {
   name                = "myNetworkSecurityGroup2"
   location            = "${var.loc2}"

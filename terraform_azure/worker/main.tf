@@ -15,7 +15,7 @@ provider "azurerm" {
 
 }
 variable "resgroup2" {
-  default = "RESOURCE-GROUP" #NAME A RESOURCE GROUP
+  default = "RESOURCE-GROUP" #TYPE A NAME OF YOUR RESOURCE GROUP
 }
 variable "loc2" {
   default = "West Europe"

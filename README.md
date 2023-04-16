@@ -11,7 +11,7 @@
 ### Azure CLI 
 - az login
 - az login --tenant name.onmicrosoft.com
-### Neccessary port for Docker Swarm
+### Neccessary ports for Docker Swarm
 - TCP 2377 - for cluster managment communication
 - TCP 7964 - for communication among nodes
 - UDP 4789 - for overlay network traffic

@@ -1,4 +1,4 @@
-# Created azure VM using **Terraform** for Docker Swarm
+# Created an Azure VM using **Terraform** for Docker Swarm
 1. Install Terraform, in my case I am using Ubuntu 22.04
 2. Install Terraform extension in your VSCode
 Files must have .tf extension

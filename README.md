@@ -7,7 +7,7 @@
 - terraform init (Downloads all neccessary dependencies)
 - terraform plan (Shows changes that are going to be made, + adding new , - removing, ~ modified)
 - terraform apply 
-- terraform destroy (IMPORTANT to type a name of incanse that you want to remove)
+- terraform destroy (:exclamation: IMPORTANT to type a name of instance/VM that you want to remove :exclamation:)
 ### Azure CLI 
 - az login
 - az login --tenant name.onmicrosoft.com
